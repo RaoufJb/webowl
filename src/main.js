@@ -10,6 +10,8 @@ class Counter extends Component {
   state = useState({ value: 0 });
 }
 
+// public folder
+
 class Root extends Component {
   static template = xml`
     <span>Hello Owl</span><br/><br/>
